@@ -1,0 +1,3 @@
+Autor: Yassir (GitHub: yxssir92)
+Projekt: Wordle – Java-Konsolenspiel
+Repository: https://github.com/yxssir92/agentic_coding
