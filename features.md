@@ -2,9 +2,9 @@
 
 **Autor:** Yassir (GitHub: yxssir92)
 
-**Stand:** 9. Oktober 2026
+**Stand:** 10. November 2026
 
-**Status:** Alle sieben beschriebenen Features sind umgesetzt.
+**Status:** ✅ markiert ein umgesetztes Feature.
 
 ## Projektziel
 
@@ -12,7 +12,7 @@ Der Spieler errät ein verborgenes deutsches Wort mit fünf Buchstaben in
 höchstens sechs Versuchen. Hinweise nach jedem gültigen Tipp helfen beim Raten.
 Jedes Feature wird durch Beschreibung, Beispiel und Prüfkriterien konkretisiert.
 
-## 1. Zufälliges Lösungswort auswählen
+## 1. Zufälliges Lösungswort auswählen ✅
 
 **Beschreibung:** Zu Beginn jeder Runde wählt das Programm zufällig eines von
 zehn Wörtern aus. Die Lösung bleibt während der Runde gleich und wird vor
@@ -27,7 +27,7 @@ ein anderes Wort oder erneut BLUME auswählen.
 Vor dem ersten Tipp ist sie verborgen. Jede neue Runde wählt erneut eine
 Lösung; ein anderes Wort ist dabei nicht garantiert.
 
-## 2. Ratewort einlesen und prüfen
+## 2. Ratewort einlesen und prüfen ✅
 
 **Beschreibung:** Der Spieler gibt ein Wort ein und bestätigt mit Enter.
 Das Programm entfernt äußere Leerzeichen und wandelt die Eingabe in
@@ -41,7 +41,7 @@ AB CD und eine leere Eingabe sind ungültig.
 Eingabe bleibt die Versuchszahl gleich. Auch ZZZZZ wird akzeptiert:
 Ratewörter werden nicht mit einem Wörterbuch abgeglichen.
 
-## 3. Hinweise zu jedem Buchstaben anzeigen
+## 3. Hinweise zu jedem Buchstaben anzeigen ✅
 
 **Beschreibung:** Nach jedem gültigen Tipp zeigt das Programm die fünf
 Ratebuchstaben mit je einem Hinweis an. Diese Hinweise helfen beim nächsten Tipp.
@@ -62,7 +62,7 @@ A[Y] L[Y] A[X] R[X] M[Y]
 Reihenfolge und erhalten genau einen Hinweis. Eine vollständig richtige
 Eingabe erhält fünf G. Ein Buchstabe, der nicht in der Lösung vorkommt, erhält X.
 
-## 4. Mehrfach vorkommende Buchstaben korrekt bewerten
+## 4. Mehrfach vorkommende Buchstaben korrekt bewerten ✅
 
 **Beschreibung:** Ein Buchstabe darf nur so oft einen passenden Hinweis erhalten,
 wie er in der Lösung vorkommt. Richtige Positionen (G) haben Vorrang vor
@@ -79,7 +79,7 @@ N[X] N[X] N[G] N[G] N[X]
 erhalten X, weil die Lösung nur zwei N enthält. Bei Lösung LAMPE und
 Eingabe ALARM erhält nur eines der beiden A ein Y.
 
-## 5. Versuche anzeigen und begrenzen
+## 5. Versuche anzeigen und begrenzen ✅
 
 **Beschreibung:** Vor jeder Eingabe erscheint die aktuelle Versuchszahl.
 Ein gültiger falscher Tipp verbraucht einen Versuch. Eine Runde hat
@@ -92,7 +92,7 @@ höchstens sechs gültige Versuche.
 erhöhen die Zahl nicht. Es gibt keinen siebten Versuch. Auch im sechsten
 Versuch kann der Spieler noch gewinnen.
 
-## 6. Sieg oder Niederlage erkennen
+## 6. Sieg oder Niederlage erkennen ✅
 
 **Beschreibung:** Bei einer richtigen Eingabe endet die Runde sofort.
 Das Programm meldet den Sieg und die Anzahl der benötigten Versuche.
@@ -114,7 +114,7 @@ Leider verloren. Das Wort war: APFEL
 Bei einer Niederlage wird die richtige Lösung angezeigt. Eine abgeschlossene
 Runde meldet entweder Sieg oder Niederlage, niemals beides.
 
-## 7. Weitere Runde starten oder Spiel beenden
+## 7. Weitere Runde starten oder Spiel beenden ✅
 
 **Beschreibung:** Nach einer Runde fragt das Programm
 `Noch einmal spielen? (j/n)`. Mit j startet eine neue Runde mit erneut
