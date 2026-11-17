@@ -53,7 +53,8 @@ Es gibt keinen Tagesmodus und keine farbige Terminalausgabe.
 
 - `Wordle.java`: der vollständige Programmcode mit Kommentaren.
 - `readme.md`: Beschreibung, Autor und Startanleitung.
-- `features.md`: sieben nummerierte Funktionen.
+- [`manual.md`](manual.md): Bedienungsanleitung mit einem Beispiel.
+- [`features.md`](features.md): sieben nummerierte Funktionen mit Häkchen, Beispielen und Prüfkriterien.
 - `agents.md`: grundlegende Anweisungen für die Projektarbeit.
 - `code-erklaerung.md`: Erklärung des Codes für Einsteiger.
 - `yassir_git_project.txt`: Repository-Link für die alternative Abgabe.

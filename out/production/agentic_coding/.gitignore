@@ -26,3 +26,4 @@ replay_pid*
 # Local IntelliJ IDEA settings
 .idea/
 *.iml
+out/
